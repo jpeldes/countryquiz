@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <html lang="en">
             <body className={inter.className}>
                 {children}
-                <Toaster />
+                <Toaster richColors />
             </body>
         </html>
     )
