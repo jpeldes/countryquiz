@@ -1,7 +1,9 @@
+import Game from '@/components/Game'
+
 export default function Home() {
     return (
-        <main className="flex min-h-screen">
-            <h1>Hello world</h1>
+        <main className="pt-6 lg:pt-12 px-4">
+            <Game />
         </main>
     )
 }
